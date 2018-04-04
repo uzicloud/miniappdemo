@@ -1,0 +1,3 @@
+<!--pages/about/about.wxml-->
+<image class="barcode" src="/images/barcode.jpg"/>
+<view class="disp">扫码，添加“武天”为好友 拉你入“微信小程序学习群”</view>

@@ -1,14 +1,31 @@
 {
-  "pages":[
+  "pages": [
     "pages/welcome/welcome",
     "pages/articles/articles",
-    "pages/article/article"
-    
+    "pages/article/article",
+    "pages/about/about"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Demo",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "backgroundColor": "#FAFAFA",
+    "borderStyle": "white",
+    "color": "#BDBDBD",
+    "selectedColor": "#2196F3",
+    "list": [
+      {
+        "pagePath": "pages/welcome/welcome",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ]
   }
 }

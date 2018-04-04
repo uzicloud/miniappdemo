@@ -1,0 +1,11 @@
+/* pages/about/about.wxss */
+.barcode{
+  display:block;
+  margin: 0 auto;
+  height:600rpx;
+  width:600rpx;
+}
+.disp{
+  font-size:24rpx;
+  text-align: center;
+}
