@@ -1,0 +1,6 @@
+<!--pages/welcome/welcome.wxml-->
+<image src="{{image}}" class="logo"/>
+<view class="title">{{title}}</view>
+<button class="btn" type="primary" open-type="getUserInfo" bindgetuserinfo="getUserInfo">读用户信息</button>
+<button class="btn" type="primary" bindtap="gotoArticles">文章列表</button>
+<button class="btn" type="primary" >多媒体(待续)</button>

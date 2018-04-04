@@ -1,0 +1,5 @@
+/* pages/article/article.wxss */
+view, text{
+  font-size:28rpx;
+  margin:20rpx;
+}

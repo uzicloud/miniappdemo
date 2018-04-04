@@ -1,0 +1,3 @@
+<!--pages/article/article.wxml-->
+<view>{{article.title}}</view>
+<text>{{article.content}}</text>

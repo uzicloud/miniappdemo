@@ -1,0 +1,5 @@
+<!--pages/articles/articles.wxml-->
+<navigator url='/pages/article/article?id={{article.id}}' wx:for-items="{{articles}}" wx:key="id" wx:for-item="article" class="article">
+{{article.title}}<text class="read">{{article.read ? " 已读": ""}}</text>
+</navigator>
+<button class="btn" type="primary" bindtap="clearRead">清除已读状态</button>

@@ -1,0 +1,11 @@
+/* pages/welcome/welcome.wxss */
+.logo{
+  display:block;
+  margin: 0 auto;
+  width:200rpx;
+  height:200rpx;
+}
+.title{
+  text-align: center;
+}
+
